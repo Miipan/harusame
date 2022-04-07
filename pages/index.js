@@ -22,12 +22,17 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://guest.harusame.us/1:/" className={styles.card}>
-            <h2>Public Drive &rarr;</h2>
+          <a href="https://panda.harusame.us/1:/" className={styles.card}>
+            <h2>Public Drive 1 &rarr;</h2>
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
 
-          <a href="https://panda.harusame.us/1:/" className={styles.card}>
+          <a href="https://guest.harusame.us/1:/" className={styles.card}>
+            <h2>Public Drive 2 &rarr;</h2>
+            {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
+          </a>
+		  
+          <a href="https://panda.harusame.us/0:/" className={styles.card}>
             <h2>Private Drive &rarr;</h2>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a>
